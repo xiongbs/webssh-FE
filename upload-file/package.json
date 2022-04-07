@@ -1,0 +1,27 @@
+{
+  "name": "upload-file",
+  "version": "1.0.0",
+  "description": "node upload huge file bolb slice break-continue upload",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "compile": "tsc -p ./tsconfig.server.json",
+    "serve": "tsc -p ./tsconfig.server.json && node ./out-tsc/app-server/server",
+    "debug": "node --inspect ./out-tsc/app-server/server"
+  },
+  "keywords": [
+    "node",
+    "ts",
+    "upload",
+    "huge",
+    "file"
+  ],
+  "author": "beni",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
